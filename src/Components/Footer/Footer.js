@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-light text-center">Copyright: 2022 culturalparkbd.com ||  Design By: Ruvel Barua.Email:ruvel.br78@gmail.com</div>
+                <div className="text-light text-center">Copyright: 2022 culturalparkbd.com ||  Design By: Ruvel Barua. || Email: ruvel.br78@gmail.com</div>
             </div>
 
         </div>
