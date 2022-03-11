@@ -1,0 +1,32 @@
+[
+    {
+        "key": 101,
+        "name": "Computer Training",
+        "description": "Basci to Advanced Course",
+        "img": "imgs/courses/computer.jpg"
+    },
+    {
+        "key": 102,
+        "name": "Drowing Training",
+        "description": "Basic to Advanced Course",
+        "img": "imgs/courses/drowing.jpg"
+    },
+    {
+        "key": 103,
+        "name": "Music Training",
+        "description": "Basic to Advanced Course",
+        "img": "imgs/courses/music.png"
+    },
+    {
+        "key": 104,
+        "name": "Health Service",
+        "description": "Everyday Service",
+        "img": "imgs/courses/health.jpg"
+    },
+    {
+        "key": 105,
+        "name": "Quantum Course",
+        "description": "Every Month Three Days Course",
+        "img": "imgs/courses/quantum.jpg"
+    }
+]

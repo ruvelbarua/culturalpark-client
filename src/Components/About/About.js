@@ -2,7 +2,6 @@ import React from 'react';
 import aboutimg from '../pic/nantu.JPG';
 import './About.css';
 
-
 const About = () => {
     return (
         <div className="container-fluid d-flex my-5">

@@ -1,68 +1,74 @@
 [
     {
-        "key": 101,
+        "key": 1,
         "name": "A.B.M Fazley Karim Chowdhury (MP)",
         "description": "Member of Parlament",
-        "img": "imgs/guest4.JPG"
+        "img": "imgs/mppic.png"
     },
     {
-        "key": 102,
-        "name": "Guest One",
+        "key": 2,
+        "name": "MRIDUL KANTI BARUA",
         "description": "Chief guest",
         "img": "imgs/guest1.jpg"
     },
     {
-        "key": 103,
+        "key": 3,
         "name": "Guest Two",
         "description": "Chief Guest ",
         "img": "imgs/guest2.jpg"
     },
     {
-        "key": 104,
+        "key": 4,
         "name": "Guest Three",
         "description": "Chief Guest ",
         "img": "imgs/guest3.jpg"
     },
     {
-        "key": 105,
+        "key": 5,
         "name": "21st February",
         "description": "Celebration on 21st Feburary",
         "img": "imgs/21february.jpg"
     },
     {
-        "key": 106,
+        "key": 6,
         "name": "26th March",
         "description": "Celebration on 26th March",
         "img": "imgs/26march.jpg"
     },
     {
-        "key": 107,
+        "key": 7,
         "name": "Bijoydibosh",
         "description": "Celebration on Bijoydibosh",
         "img": "imgs/bijoydibosh.jpg"
     },
     {
-        "key": 108,
+        "key": 8,
         "name": "Art",
         "description": "Art Compition",
         "img": "imgs/art.jpg"
     },
     {
-        "key": 109,
+        "key": 9,
         "name": "Baishabi",
-        "description": "Celebration on Bijoydibosh",
+        "description": "Celebration on Baishabi",
         "img": "imgs/baishabi.jpg"
     },
     {
-        "key": 110,
+        "key": 10,
         "name": "Poet",
         "description": "Poet Price Giving",
         "img": "imgs/poet.JPG"
     },
     {
-        "key": 111,
+        "key": 11,
         "name": "Meditation",
         "description": "Meditation Course",
         "img": "imgs/meditation.jpg"
+    },
+    {
+        "key": 12,
+        "name": "Bicycle Rally",
+        "description": "Bicycle Rally Compition",
+        "img": "imgs/bicycle.jpg"
     }
 ]

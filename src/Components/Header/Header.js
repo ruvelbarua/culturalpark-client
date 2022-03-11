@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Button, ButtonGroup, DropdownButton, Dropdown } from 'react-bootstrap';
+import { Container, Navbar, Button, ButtonGroup, DropdownButton, Dropdown, NavbarBrand } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 // import useAuth from '../Hooks/useAuth';
 import Logo1 from '../pic/logo.png';
@@ -8,27 +8,22 @@ import './Header.css';
 const Header = () => {
     // const { user, logOut } = useAuth();
     return (
-        <div>
-            
-            <Navbar collapseOnSelect expand="lg" className="bg-light">
+        <Navbar collapseOnSelect expand="lg" className="bg-light">
+            <Container>
+                <Navbar.Brand href="#home">
+                    <img
+                        alt="cultural park logo"
+                        src={Logo1}
+                        width="100"
+                        height="80"
+                        className="d-inline-block align-top"
+                    />{' '}
+                    <h2>Cultural Park</h2>
+                    <p>www.culturalparkbd.com</p>
+                </Navbar.Brand>
+            </Container><br />
+            <Navbar>
                 <Container>
-                    {/* <Navbar.Brand className="w-100%"><img src={Logo1} alt="" />
-                    </Navbar.Brand> */}
-                    <Container className="justify-content-center">
-                        <Navbar>
-                            <Navbar.Brand href="#home">
-                                <img
-                                    alt="cultural park logo"
-                                    src={Logo1}
-                                    width="100"
-                                    height="80"
-                                    className="d-inline-block align-top"
-                                />{' '}
-                                <h2>Cultural Park</h2>
-                                <p>www.culturalparkbd.com</p>
-                            </Navbar.Brand>
-                        </Navbar>
-                    </Container>
                     <Navbar.Collapse className="justify-content-end" >
                         <Navbar.Brand>
                             <Button as={HashLink} to="/home" variant="outline-primary">Home</Button>
@@ -46,7 +41,7 @@ const Header = () => {
                             <Button as={HashLink} to="/publication" variant="outline-primary"> Publication</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/gallery" variant="outline-primary">Gallery</Button>
+                            <Button as={HashLink} to="/photos" variant="outline-primary">Photos</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
                             <Button as={HashLink} to="/donation" variant="outline-primary">Donation</Button>
@@ -70,8 +65,8 @@ const Header = () => {
                         </Navbar.Brand> */}
                     </Navbar.Collapse>
                 </Container>
-            </Navbar >
-        </div>
+            </Navbar>
+        </Navbar >
     );
 };
 

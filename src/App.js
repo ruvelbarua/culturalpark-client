@@ -8,12 +8,12 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Medation from './Components/Meditation/Meditation';
 import Publication from './Components/Publication/Publication';
-import Gallery from './Components/Gallery/Gallery';
 import Donation from './Components/Donation/Donation';
 import Contact from './Components/Contact/Contact';
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Notfound from "./Components/Notfound/Notfound";
+import Photos from "./Components/Photos/Photos";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
         <Route path="services" element={<Services />} />
         <Route path="meditation" element={<Medation />} />
         <Route path="publication" element={<Publication />} />
-        <Route path="gallery" element={<Gallery />} />
+        <Route path="photos" element={<Photos />} />
         <Route path="donation" element={<Donation />} />
         <Route path="contacts" element={<Contact />} />
         <Route path="*" element={<Notfound />} />
