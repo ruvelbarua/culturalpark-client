@@ -8,8 +8,8 @@ import './Header.css';
 const Header = () => {
     // const { user, logOut } = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" className="bg-light">
-            <Container>
+        <Navbar collapseOnSelect expand="lg" className="d-flex justify-content-around">
+            <div className='text-center'>
                 <Navbar.Brand href="#home">
                     <img
                         alt="cultural park logo"
@@ -21,9 +21,9 @@ const Header = () => {
                     <h2>Cultural Park</h2>
                     <p>www.culturalparkbd.com</p>
                 </Navbar.Brand>
-            </Container><br />
-            <Navbar>
-                <Container>
+            </div>
+            <div className=''>
+                <Navbar>
                     <Navbar.Collapse className="justify-content-end" >
                         <Navbar.Brand>
                             <Button as={HashLink} to="/home" variant="outline-primary">Home</Button>
@@ -64,8 +64,8 @@ const Header = () => {
                             </ButtonGroup>
                         </Navbar.Brand> */}
                     </Navbar.Collapse>
-                </Container>
-            </Navbar>
+                </Navbar>
+            </div>
         </Navbar >
     );
 };

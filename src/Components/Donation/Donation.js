@@ -2,8 +2,9 @@ import React from 'react';
 
 const Donation = () => {
     return (
-        <div>
-            <h2>This is Donation Page</h2>
+        <div className='text-center text-danger'>
+            <h2>কালচারাল পার্কের ডোনেশন পেজ</h2><br />
+            <p>কাজ চলছে...</p>
         </div>
     );
 };
