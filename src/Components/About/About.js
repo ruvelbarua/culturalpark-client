@@ -12,7 +12,8 @@ const About = () => {
                             <img className="about-img" src={aboutimg} alt="" />
                         </div>
                         <div className="my-3 text-center text-danger">
-                            <h2>প্রতিষ্ঠাতা:নান্টু বড়ুয়া</h2>
+                            <h2>প্রতিষ্ঠাতা: নান্টু বড়ুয়া</h2>
+                            <h2>Founder: Nantu Barua</h2>
                         </div>
                     </div>
                     <div className="col-md-6">

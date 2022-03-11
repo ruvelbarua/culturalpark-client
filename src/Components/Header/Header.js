@@ -44,7 +44,7 @@ const Header = () => {
                             <Button as={HashLink} to="/photos" variant="outline-primary">Photos</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/donation" variant="outline-primary">Donation</Button>
+                            <Button as={HashLink} to="/donation" variant="outline-primary">Membership</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
                             <Button as={HashLink} to="/contacts" variant="outline-primary">Contacts</Button>

@@ -7,10 +7,10 @@ import Slider from '../Slider/Slider';
 const Home = () => {
     return (
         <div>
-            <Slider></Slider>
-            <Services></Services>
-            <Registration></Registration>
             <About></About>
+            <Services></Services>
+            <Slider></Slider>
+            <Registration></Registration>
         </div>
     );
 };

@@ -9,7 +9,7 @@ const Photo = (props) => {
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{key}</Card.Title>
-                    {/* <Card.Title>{name}</Card.Title> */}
+                    <Card.Title>{name}</Card.Title>
                     <Card.Text>
                         {description}
                     </Card.Text>

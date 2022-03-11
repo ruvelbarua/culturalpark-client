@@ -7,7 +7,7 @@
     },
     {
         "key": 102,
-        "name": "Drowing Training",
+        "name": "Drawing Training",
         "description": "Basic to Advanced Course",
         "img": "imgs/courses/drowing.jpg"
     },
@@ -25,7 +25,7 @@
     },
     {
         "key": 105,
-        "name": "Quantum Course",
+        "name": "Self Improvement Course",
         "description": "Every Month Three Days Course",
         "img": "imgs/courses/quantum.jpg"
     }
