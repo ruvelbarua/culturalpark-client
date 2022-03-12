@@ -27,7 +27,7 @@ const Activities = () => {
                 <h2 className='text-center text-warning text-center my-4'>সংগঠনের ধরন</h2>
                 <Card style={{ width: '70rem' }}>
                     <Card.Body>
-                        <Card.Title className='text-center bg-success'><h2 className='text-white'>সংগঠনের ধরন সমূহ:</h2></Card.Title>
+                        <Card.Title className='text-center bg-primary'><h2 className='text-white'>সংগঠনের ধরন সমূহ:</h2></Card.Title>
                     </Card.Body>
                     <ListGroup className="list-group-flush">
                         <ListGroupItem>১। কালচারাল পার্ক একটি অরাজনৈতিক, সামাজিক, সাংস্কৃতিক, অসাম্প্রদায়িক ও মানবতাবাদী সংগঠন। </ListGroupItem>
