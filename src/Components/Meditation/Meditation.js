@@ -4,11 +4,11 @@ import mdtpic from '../pic/quantum.jpg'
 
 const Meditation = () => {
     return (
-        <div>
-            <div className='my-4 text-success'>
+        <div className='container my-4'>
+            <div className='text-success'>
                 <h2 className='text-center'>আত্মোন্নয়ন কোর্স</h2>
             </div>
-            <Card className="bg-dark text-white my-4">
+            <Card className="text-white my-4">
                 <Card.Img src={mdtpic} alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title><h2>সাইয়েন্টিফিক লেকচার ও মেডিটেশন</h2></Card.Title>
