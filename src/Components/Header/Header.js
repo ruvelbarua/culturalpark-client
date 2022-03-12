@@ -24,7 +24,7 @@ const Header = () => {
             </div>
             <div className=''>
                 <Navbar>
-                    <Navbar.Collapse className="justify-content-end" >
+                    <Navbar.Collapse className=" justify-content-center" >
                         <Navbar.Brand>
                             <Button as={HashLink} to="/home" variant="outline-primary">Home</Button>
                         </Navbar.Brand>
