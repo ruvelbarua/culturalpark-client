@@ -1,31 +1,31 @@
 [
     {
         "key": 101,
-        "name": "Computer Training",
+        "name": "কম্পিউটার প্রশিক্ষণ",
         "description": "Basci to Advanced Course",
         "img": "imgs/courses/computer.jpg"
     },
     {
         "key": 102,
-        "name": "Drawing Training",
+        "name": "ড্রইং প্রশিক্ষণ",
         "description": "Basic to Advanced Course",
         "img": "imgs/courses/drowing.jpg"
     },
     {
         "key": 103,
-        "name": "Music Training",
+        "name": "সংগীত শিক্ষা",
         "description": "Basic to Advanced Course",
         "img": "imgs/courses/music.png"
     },
     {
         "key": 104,
-        "name": "Health Service",
+        "name": "স্বাস্থ্য সেবা",
         "description": "Everyday Service",
         "img": "imgs/courses/health.jpg"
     },
     {
         "key": 105,
-        "name": "Self Improvement Course",
+        "name": "আত্নোন্নয়ন কোর্স",
         "description": "Every Month Three Days Course",
         "img": "imgs/courses/quantum.jpg"
     }

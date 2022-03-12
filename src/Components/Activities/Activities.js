@@ -24,7 +24,7 @@ const Activities = () => {
                 </Card>
             </div>
             <div className=' my-4'>
-                <h2 className='text-center text-warning text-center my-4'>সংগঠনের ধরন</h2>
+                <h2 className='text-center text-danger text-center my-4'>সংগঠনের ধরন</h2>
                 <Card style={{ width: '70rem' }}>
                     <Card.Body>
                         <Card.Title className='text-center bg-primary'><h2 className='text-white'>সংগঠনের ধরন সমূহ:</h2></Card.Title>

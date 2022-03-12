@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <div className="container my-4">
             <div className='text-center text-danger'>
-                <h2>CULTURAL PARK SERVICES</h2>
+                <h2>কালচারাল পার্কের চলমান কার্য্যক্রম</h2>
             </div>
             <div className="row g-4 my-4">
                 {

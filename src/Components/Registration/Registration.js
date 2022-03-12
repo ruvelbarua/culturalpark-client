@@ -8,7 +8,7 @@ const Registration = () => {
         <div className="container-flex my-3 m-5">
             <div className="">
                 <div className="my-3 text-center text-danger">
-                    <h2>Registration Form</h2>
+                    <h2>রেজিষ্ট্রেশন ফরম</h2>
                 </div>
                 <div className="">
                     <div className="row">
@@ -18,7 +18,7 @@ const Registration = () => {
                                     <Card.Img variant="top" src={adpic} />
                                     <Card.Body>
                                         <Card.Text className='text-center'>
-                                            <h2>Admission Information</h2>
+                                            <h2>ভর্তির তথ্য </h2>
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>

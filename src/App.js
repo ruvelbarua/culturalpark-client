@@ -8,7 +8,7 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Medation from './Components/Meditation/Meditation';
 import Publication from './Components/Publication/Publication';
-import Donation from './Components/Donation/Donation';
+import Membership from './Components/Membership/Membership';
 import Contact from './Components/Contact/Contact';
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
@@ -27,7 +27,7 @@ function App() {
         <Route path="meditation" element={<Medation />} />
         <Route path="publication" element={<Publication />} />
         <Route path="photos" element={<Photos />} />
-        <Route path="donation" element={<Donation />} />
+        <Route path="membership" element={<Membership />} />
         <Route path="contacts" element={<Contact />} />
         <Route path="*" element={<Notfound />} />
         {/* <Route path="users/*" element={<Users />} /> */}

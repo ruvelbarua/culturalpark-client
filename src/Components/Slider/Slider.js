@@ -22,8 +22,8 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h5>Welcome</h5>
-                    <h2>Cultural Park Campus</h2>
+                    <h5>স্বাগতম</h5>
+                    <h2>কালচারাল পার্ক ক্যাম্পাস</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -35,7 +35,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Anandaniketon</h2>
+                    <h2>আনন্দনিকেতন</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -47,7 +47,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Jagoron Moncho</h2>
+                    <h2>জাগরণ মঞ্চ</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -59,7 +59,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Play Ground</h2>
+                    <h2>শিশুদের বিনোদন কেন্দ্র</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -71,7 +71,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Sunoyon Milonayoton</h2>
+                    <h2>সুনয়ন মিলনায়তন</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -83,7 +83,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Shilananda Pathagar</h2>
+                    <h2>শীলানন্দ পাঠাগার</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -95,7 +95,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Shanti Vaskorzo</h2>
+                    <h2>শান্তীর ভাস্কর্য্য</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -107,7 +107,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Toron</h2>
+                    <h2>তোরন</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -119,7 +119,7 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>Vaskorzo</h2>
+                    <h2>ভাস্কর্য্য</h2>
                 </Carousel.Caption>
             </Carousel.Item>
 

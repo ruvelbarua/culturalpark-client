@@ -16,7 +16,7 @@ const Contact = () => {
                         <h4>Instagram: ...</h4>
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer className="text-muted">Mobile: +88-018640358</Card.Footer>
+                <Card.Footer className="text-muted">Mobile: +88-01819640358</Card.Footer>
             </Card>
         </div>
     );
