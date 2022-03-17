@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
@@ -17,23 +18,31 @@ import Photos from "./Components/Photos/Photos";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="home" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="services" element={<Services />} />
-        <Route path="meditation" element={<Medation />} />
-        <Route path="publication" element={<Publication />} />
-        <Route path="photos" element={<Photos />} />
-        <Route path="membership" element={<Membership />} />
-        <Route path="contacts" element={<Contact />} />
-        <Route path="*" element={<Notfound />} />
-        {/* <Route path="users/*" element={<Users />} /> */}
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cultural Park</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="culturalpark icon and titel" />
+      </Helmet>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="meditation" element={<Medation />} />
+          <Route path="publication" element={<Publication />} />
+          <Route path="photos" element={<Photos />} />
+          <Route path="membership" element={<Membership />} />
+          <Route path="contacts" element={<Contact />} />
+          <Route path="*" element={<Notfound />} />
+          {/* <Route path="users/*" element={<Users />} /> */}
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 export default App;
