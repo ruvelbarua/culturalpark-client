@@ -5,7 +5,7 @@ import campuspic from '../pic/campus.JPG';
 const Navigation = () => {
     return (
         <Container>
-            <Card className="">
+            <Card>
                 <Card.Img src={campuspic} alt="campus image" />
                 <Card.ImgOverlay className='text-center'>
                     <Card.Title><h2 className='text-danger'>কালচারাল পার্ক</h2></Card.Title>

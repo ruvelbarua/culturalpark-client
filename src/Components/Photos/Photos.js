@@ -14,7 +14,7 @@ const Photos = () => {
             <div className='text-center text-success'>
                 <h2>CULTURAL PARK PHOTO GALLERY</h2>
             </div>
-            <div className="row g-4 my-4">
+            <div className="row bg-dark g-2 m-2 p-3 my-4">
                 {
                     photos.map((photo =>
                         <Photo

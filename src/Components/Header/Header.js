@@ -1,53 +1,50 @@
 import React from 'react';
-import { Container, Navbar, Button, ButtonGroup, DropdownButton, Dropdown, NavbarBrand } from 'react-bootstrap';
+import { Container, Navbar, Button, ButtonGroup, DropdownButton, Dropdown, NavbarBrand, Nav } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 // import useAuth from '../Hooks/useAuth';
-import Logo1 from '../pic/logo.png';
-import './Header.css';
+import Logo1 from '../pic/logo1.png';
 
 const Header = () => {
     // const { user, logOut } = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" className="d-flex justify-content-around">
-            <div className='text-center'>
-                <Navbar.Brand href="#home">
-                    <img
-                        alt="cultural park logo"
-                        src={Logo1}
-                        width="100"
-                        height="80"
-                        className="d-inline-block align-top"
-                    />{' '}
-                    <h2>Cultural Park</h2>
-                    <p>www.culturalparkbd.com</p>
-                </Navbar.Brand>
-            </div>
-            <div className=''>
-                <Navbar>
-                    <Navbar.Collapse className=" justify-content-center" >
+        <Navbar collapseOnSelect expand="lg" className=" justify-content-around bg-light" >
+            <Navbar className="navbar navbar-light">
+                <div className="container ">
+                    <a className="navbar-brand" href="#home">
+                        <img src={Logo1} alt="" className="d-inline-block align-text-center rounded rounded-circle" width="100" />
+                    </a>
+                    <div className='text-center fw-bold text-danger'>
+                        <h4 >CULTURAL PARK</h4>
+                        <p className='badge bg-success'>www.culturalparkbd.com</p>
+                    </div>
+                </div>
+            </Navbar>
+            <Navbar className='navbar navbar-expand-sm ml-auto' >
+                <div className='container-fluid'>
+                    <Navbar.Collapse className="text-left" >
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/home" variant="outline-primary">Home</Button>
+                            <Button as={HashLink} to="/home" variant="outline-primary btn-sm">Home</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/about" variant="outline-warning">About Us</Button>
+                            <Button as={HashLink} to="/about" variant="outline-primary btn-sm">About Us</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/services" variant="outline-primary"> Services</Button>
+                            <Button as={HashLink} to="/services" variant="outline-primary btn-sm"> Services</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/meditation" variant="outline-primary"> Meditation</Button>
+                            <Button as={HashLink} to="/meditation" variant="outline-primary btn-sm"> Meditation</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/publication" variant="outline-primary"> Publication</Button>
+                            <Button as={HashLink} to="/publication" variant="outline-primary btn-sm"> Publication</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/photos" variant="outline-primary">Photos</Button>
+                            <Button as={HashLink} to="/photos" variant="outline-primary btn-sm">Photos</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/membership" variant="outline-primary">Membership</Button>
+                            <Button as={HashLink} to="/membership" variant="outline-primary btn-sm">Membership</Button>
                         </Navbar.Brand>
                         <Navbar.Brand>
-                            <Button as={HashLink} to="/contacts" variant="outline-primary">Contacts</Button>
+                            <Button as={HashLink} to="/contacts" variant="outline-primary btn-sm">Contacts</Button>
                         </Navbar.Brand>
                         {/* <Navbar.Brand>
                             <ButtonGroup>
@@ -64,8 +61,8 @@ const Header = () => {
                             </ButtonGroup>
                         </Navbar.Brand> */}
                     </Navbar.Collapse>
-                </Navbar>
-            </div>
+                </div>
+            </Navbar>
         </Navbar >
     );
 };

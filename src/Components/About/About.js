@@ -5,11 +5,11 @@ import './About.css';
 const About = () => {
     return (
         <div className="my-5">
-            <div className="container d-flex">
+            <div className="container">
                 <div className="row g-2">
                     <div className="col-md-6">
                         <div className="">
-                            <img className="about-img" src={aboutimg} alt="" />
+                            <img className="img-fluid" src={aboutimg} alt="" />
                         </div>
                         <div className="my-3 text-center text-danger">
                             <h4>প্রতিষ্ঠাতা: নান্টু বড়ুয়া</h4>

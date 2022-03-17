@@ -6,7 +6,7 @@ const Photo = (props) => {
     return (
         <div className="col-md-4">
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={img} />
+                <Card.Img variant="top" className='img-fluid img-thumbnail d-block m-auto' src={img} />
                 <Card.Body>
                     <Card.Title>{key}</Card.Title>
                     <Card.Title>{name}</Card.Title>
