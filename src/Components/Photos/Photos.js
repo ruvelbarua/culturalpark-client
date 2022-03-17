@@ -11,10 +11,10 @@ const Photos = () => {
         , [])
     return (
         <div className="container my-4">
-            <div className='text-center text-success'>
-                <h2>CULTURAL PARK PHOTO GALLERY</h2>
+            <div className='text-center text-danger bg-light'>
+                <h2>PHOTO GALLERY</h2>
             </div>
-            <div className="row bg-dark g-2 m-2 p-3 my-4">
+            <div className="row bg-light g-2 m-2 p-3 my-4">
                 {
                     photos.map((photo =>
                         <Photo
