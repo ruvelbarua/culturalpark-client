@@ -13,7 +13,7 @@
     },
     {
         "key": 3,
-        "name": "অতিথি",
+        "name": "প্রধান অতিথি",
         "description": "Chief Guest ",
         "img": "imgs/guest2.jpg"
     },
@@ -55,7 +55,7 @@
     },
     {
         "key": 10,
-        "name": "কবিতা পাঠে পুরস্কার প্রদান",
+        "name": "সাহিত্য প্রতিযোগীতার পুরস্কার ",
         "description": "Poet Price Giving",
         "img": "imgs/poet.JPG"
     },
@@ -97,13 +97,13 @@
     },
     {
         "key": 17,
-        "name": "শিশু দিবস",
-        "description": "শিশু দিবস পালন",
+        "name": "শিশু দিবস উদযাপন",
+        "description": "শিশু দিবস",
         "img": "imgs/shishudibos.jpg"
     },
     {
         "key": 18,
-        "name": "সন্মাননা",
+        "name": "গুণীজন সন্মাননা",
         "description": "গুণীজন সন্মাননা",
         "img": "imgs/shammanona.JPG"
     },
@@ -115,19 +115,19 @@
     },
     {
         "key": 20,
-        "name": "চেয়ারম্যান",
+        "name": "চেয়ারম্যান(ইউপি)",
         "description": "মাননীয় চেয়ারম্যান",
         "img": "imgs/chairman.jpg"
     },
     {
         "key": 21,
-        "name": "সম্মাননা",
+        "name": "আজীবন সদস্য সম্মাননা",
         "description": "আজীবন সদস্য সম্মাননা",
         "img": "imgs/member.jpg"
     },
     {
         "key": 22,
-        "name": "পুরস্কার বিতরণ",
+        "name": "পুরস্কার বিতরণ অনুষ্ঠান",
         "description": "চিত্রাংকন",
         "img": "imgs/gift.jpg"
     },
