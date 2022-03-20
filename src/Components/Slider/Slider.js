@@ -9,11 +9,12 @@ import Simg6 from '../pic/slider/sp.jpg';
 import Simg7 from '../pic/slider/sv.jpg';
 import Simg8 from '../pic/slider/toron.jpg';
 import Simg9 from '../pic/slider/ppv.JPG';
+import Simg0 from '../pic/slider/dyning.jpg';
 
 const Slider = () => {
     return (
         <Carousel fade>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -22,11 +23,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h5>স্বাগতম</h5>
-                    <h2>কালচারাল পার্ক ক্যাম্পাস</h2>
+                    <h1>কালচারাল পার্ক ক্যাম্পাস</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -35,10 +35,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>আনন্দনিকেতন</h2>
+                    <h1>আনন্দনিকেতন</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -47,10 +47,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>জাগরণ মঞ্চ</h2>
+                    <h1>জাগরণ মঞ্চ</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -59,10 +59,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>শিশুদের বিনোদন কেন্দ্র</h2>
+                    <h1>শিশুদের বিনোদন কেন্দ্র</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -71,10 +71,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>সুনয়ন মিলনায়তন</h2>
+                    <h1>সুনয়ন মিলনায়তন</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -83,10 +83,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>শীলানন্দ পাঠাগার</h2>
+                    <h1>শীলানন্দ পাঠাগার</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -95,10 +95,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>শান্তীর ভাস্কর্য্য</h2>
+                    <h1>শান্তীর ভাস্কর্য্য</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -107,10 +107,10 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>তোরন</h2>
+                    <h1>তোরন</h1>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <Container>
                     <img
                         className="d-block w-100"
@@ -119,7 +119,19 @@ const Slider = () => {
                     />
                 </Container>
                 <Carousel.Caption>
-                    <h2>ভাস্কর্য্য</h2>
+                    <h1>ভাস্কর্য্য</h1>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={3000}>
+                <Container>
+                    <img
+                        className="d-block w-100"
+                        src={Simg0}
+                        alt="Eight slide"
+                    />
+                </Container>
+                <Carousel.Caption>
+                    <h1>ডাইনিং হল</h1>
                 </Carousel.Caption>
             </Carousel.Item>
 

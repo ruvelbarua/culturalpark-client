@@ -31,7 +31,9 @@ const Meditation = () => {
                         <Card.Text>
                             <h3>ফ্রি এন্ট্রি</h3>
                         </Card.Text>
-                        <Button variant="primary">Booking Now</Button>
+                        <a href='https://forms.gle/VfUbufgY5oGVjaiF7'>
+                            নাম নিবন্ধন করুন
+                        </a>
                     </Card.Body>
                 </Card>
             </div>

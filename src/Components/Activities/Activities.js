@@ -4,7 +4,7 @@ import { Card, Container, ListGroup, ListGroupItem } from 'react-bootstrap';
 const Activities = () => {
     return (
         <div className='my-4'>
-            <h2 className='text-center text-primary text-center '>আমাদের নিয়মিত আয়োজন</h2>
+            <h2 className='text-center text-danger text-center '>কালচারাল পার্কের নিয়মিত আয়োজন</h2>
             <Container className='my-3'>
                 <Card style={{ width: '70rem' }}>
                     <Card.Body>
