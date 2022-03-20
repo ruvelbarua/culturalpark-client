@@ -7,7 +7,7 @@ import Logo1 from '../pic/logo1.png';
 const Header = () => {
     // const { user, logOut } = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" className=" justify-content-around bg-light" >
+        <Navbar collapseOnSelect expand="lg" className=" container text-center bg-light" >
             <Navbar className="navbar navbar-light">
                 <div className="container ">
                     <a className="navbar-brand" href="#home">
@@ -19,9 +19,9 @@ const Header = () => {
                     </div>
                 </div>
             </Navbar>
-            <Navbar className='navbar navbar-expand-sm ml-auto' >
-                <div className='container-fluid'>
-                    <Navbar.Collapse className="text-left" >
+            <Navbar className='navbar navbar-expand-sm p-auto' >
+                <div className=''>
+                    <Navbar.Collapse className="" >
                         <Navbar.Brand>
                             <Button as={HashLink} to="/home" variant="outline-primary btn-sm">Home</Button>
                         </Navbar.Brand>

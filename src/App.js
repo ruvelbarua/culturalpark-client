@@ -15,7 +15,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Notfound from "./Components/Notfound/Notfound";
 import Photos from "./Components/Photos/Photos";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>

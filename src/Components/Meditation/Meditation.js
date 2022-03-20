@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import mdtpic from '../pic/quantum.jpg'
 
 const Meditation = () => {
@@ -31,8 +32,8 @@ const Meditation = () => {
                         <Card.Text>
                             <h3>ফ্রি এন্ট্রি</h3>
                         </Card.Text>
-                        <a href='https://forms.gle/VfUbufgY5oGVjaiF7'>
-                            নাম নিবন্ধন করুন
+                        <a className='bg-primary text-white border text-decoration-none' href='https://forms.gle/VfUbufgY5oGVjaiF7' target='_blank'>
+                            আবেদন করুন
                         </a>
                     </Card.Body>
                 </Card>
@@ -43,7 +44,7 @@ const Meditation = () => {
                     <Card.Body>
                         <Card.Title><h3>প্রতি শুক্রবার বিকেল ৪:০০ টায় </h3></Card.Title>
                         <Card.Text>
-                            <h2 className='text-primary'>কালচারাল পার্ক মেডিটেশন সেন্টার</h2>
+                            <h2 className='text-success'>কালচারাল পার্ক মেডিটেশন সেন্টার</h2>
                         </Card.Text>
                         <Card.Text>
                             <h4>বৈদ্যপাড়া, পশ্চিম গুজরা, রাউজান, চট্টগ্রাম।</h4>
@@ -51,7 +52,9 @@ const Meditation = () => {
                         <Card.Text>
                             <h3>ফ্রি এন্ট্রি</h3>
                         </Card.Text>
-                        <Button variant="primary">Booking Now</Button>
+                        <a className='bg-success text-white border text-decoration-none' href='https://forms.gle/VfUbufgY5oGVjaiF7' target='_blank'>
+                            আবেদন করুন
+                        </a>
                     </Card.Body>
                 </Card>
             </div>
@@ -61,15 +64,17 @@ const Meditation = () => {
                     <Card.Body>
                         <Card.Title><h3>কালচার পার্কের নিজস্ব সেন্টারে থাকা খাওয়ার ব্যবস্থা সহ</h3></Card.Title>
                         <Card.Text>
-                            <h2 className='text-primary'>সুনয়ন মিলনায়তন (শীততাপ নিয়ন্ত্রিত)</h2>
+                            <h2 className='text-danger'>সুনয়ন মিলনায়তন (শীততাপ নিয়ন্ত্রিত)</h2>
                         </Card.Text>
                         <Card.Text>
                             <h4>বৈদ্যপাড়া, পশ্চিম গুজরা, রাউজান, চট্টগ্রাম।</h4>
                         </Card.Text>
                         <Card.Text>
-                            <h3>ফ্রি এন্ট্রি</h3>
+                            <h3>ফি প্রযোজ্য</h3>
                         </Card.Text>
-                        <Button variant="primary">Booking Now</Button>
+                        <a className='bg-danger text-white text-decoration-none' href='https://forms.gle/VfUbufgY5oGVjaiF7' target='_blank'>
+                            নাম নিবন্ধন করুন
+                        </a>
                     </Card.Body>
                 </Card>
             </div>
