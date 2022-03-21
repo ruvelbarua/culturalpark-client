@@ -15,7 +15,6 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Notfound from "./Components/Notfound/Notfound";
 import Photos from "./Components/Photos/Photos";
-import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
@@ -36,7 +35,7 @@ function App() {
           <Route path="publication" element={<Publication />} />
           <Route path="photos" element={<Photos />} />
           <Route path="membership" element={<Membership />} />
-          <Route path="contacts" element={<Contact />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Notfound />} />
           {/* <Route path="users/*" element={<Users />} /> */}
         </Routes>
