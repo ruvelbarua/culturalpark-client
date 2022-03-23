@@ -7,19 +7,19 @@ import Logo1 from '../pic/logo1.png';
 const Header = () => {
     // const { user, logOut } = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant={"dark"} >
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant={"dark"} p={"2"} >
             <Container>
                 <div className='container text-center'>
                     <Navbar.Brand href="/home">
                         <img src={Logo1} alt="" className="d-inline-block align-text-center rounded rounded-circle" width="60" />
                         <h2 className='text-danger'>CULTURAL PARK</h2>
-                        <p className='text-light'>www.culturalparkbd.com</p>
+                        <p className='text-white'>www.culturalparkbd.com</p>
                     </Navbar.Brand>
 
                     <div className='container text-center'>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="me-auto">
+                            <Nav className="mx-auto">
                                 <Navbar.Brand>
                                     <Button as={HashLink} to="/home" variant="outline-primary btn-sm">Home</Button>
                                 </Navbar.Brand>
@@ -44,13 +44,6 @@ const Header = () => {
                                 <Navbar.Brand>
                                     <Button as={HashLink} to="/contact" variant="outline-primary btn-sm">Contacts</Button>
                                 </Navbar.Brand>
-                            </Nav>
-
-                            <Nav>
-                                <Nav.Link href="#deets">Admin</Nav.Link>
-                                <Nav.Link eventKey={2} href="#memes">
-                                    Login
-                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </div>

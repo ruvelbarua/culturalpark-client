@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import Media from '../Media/Media';
 import mdtpic from '../pic/meditation.jpg'
 
 const Meditation = () => {
@@ -15,7 +16,13 @@ const Meditation = () => {
                     <Card.Text></Card.Text>
                 </Card.ImgOverlay>
             </Card>
-            <div>
+            <div className='container text-center my-4'>
+                <h2 className='bg-dark text-warning p-3'>ভিজিট আমাদের ইউটিউব চ্যানেল</h2>
+                <div className='p-4'>
+                    <Media />
+                </div>
+            </div>
+            <div className='my-4'>
                 <Card className="text-center">
                     <Card.Header className='bg-dark text-danger '><h2>সাপ্তাহিক মেডিটেশন</h2></Card.Header>
                     <Card.Body>
