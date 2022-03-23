@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import mdtpic from '../pic/quantum.jpg'
+import { Card } from 'react-bootstrap';
+import mdtpic from '../pic/meditation.jpg'
 
 const Meditation = () => {
     return (
@@ -12,10 +11,8 @@ const Meditation = () => {
             <Card className="text-white my-4">
                 <Card.Img src={mdtpic} alt="Card image" />
                 <Card.ImgOverlay>
-                    <Card.Title><h2>সাইয়েন্টিফিক লেকচার ও মেডিটেশন</h2></Card.Title>
-                    <Card.Text>
-                        নিয়মিত মেডিটেশন করুন, জীবনে পরিপূর্ণতা আনুন।
-                    </Card.Text>
+                    <Card.Title></Card.Title>
+                    <Card.Text></Card.Text>
                 </Card.ImgOverlay>
             </Card>
             <div>
