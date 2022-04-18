@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="row">
                 <div className='container d-flex col-md-4 my-5 text-center text-primary gap-4'>
                     <p>Webpage:<a href='https://tinyurl.com/yc997yv9' target='blank'><h1 className='text-success'><FaGlobeAsia /></h1></a> </p>
-                    <p>Facebook:<a href='https://tinyurl.com/yc997yv9' target='blank'><h1 className='text-primary' ><FaFacebook /></h1></a></p>
+                    <p>Facebook:<a href='https://www.facebook.com/culturalpark.bangladesh/' target='blank'><h1 className='text-primary' ><FaFacebook /></h1></a></p>
                     <p>YouTube: <a href='https://www.youtube.com/channel/UCXLLJ8Y3JMDGdTRRHtVLDiw' target='blank'><h1 className='text-danger' ><FaYoutube /></h1></a></p>
                     <p>Instagram:<h1 className='text-warning'><FaInstagramSquare /></h1></p>
                     <p>Twiter: <h1 className='text-info'><FaTwitter /></h1></p>

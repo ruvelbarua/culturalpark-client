@@ -1,19 +1,19 @@
 [
     {
         "key": 1,
-        "name": "এবিএম ফজলে করিম চৌধুরী -এমপি",
+        "name": "",
         "description": "Chief guest",
         "img": "imgs/mppic.png"
     },
     {
         "key": 2,
-        "name": "মৃদূল কান্তি বড়ুয়া",
+        "name": "",
         "description": "Chief guest",
         "img": "imgs/guest1.jpg"
     },
     {
         "key": 3,
-        "name": "প্রধান অতিথি",
+        "name": "",
         "description": "Chief Guest ",
         "img": "imgs/guest2.jpg"
     },
@@ -43,8 +43,8 @@
     },
     {
         "key": 8,
-        "name": "চিত্রাংকন",
-        "description": "চিত্রাংকন প্রতিযোগীতা",
+        "name": "চিত্রাঙ্কন প্রতিযোগিতা",
+        "description": "চিত্রাঙ্কন প্রতিযোগিতা",
         "img": "imgs/art.jpg"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
         "key": 10,
-        "name": "সাহিত্য প্রতিযোগীতার পুরস্কার ",
+        "name": "কবিতা প্রতিযোগিতা",
         "description": "Poet Price Giving",
         "img": "imgs/poet.JPG"
     },
@@ -73,7 +73,7 @@
     },
     {
         "key": 13,
-        "name": "আলোর ভূবন",
+        "name": "আলোর ভুবন",
         "description": "Alor Vhuban",
         "img": "imgs/alorvhubon.jpg"
     },
@@ -103,8 +103,8 @@
     },
     {
         "key": 18,
-        "name": "গুণীজন সন্মাননা",
-        "description": "গুণীজন সন্মাননা",
+        "name": "গুণীজন সম্মাননা",
+        "description": "গুণীজন সম্মাননা",
         "img": "imgs/shammanona.JPG"
     },
     {
@@ -115,7 +115,7 @@
     },
     {
         "key": 20,
-        "name": "চেয়ারম্যান(ইউপি)",
+        "name": "",
         "description": "মাননীয় চেয়ারম্যান",
         "img": "imgs/chairman.jpg"
     },

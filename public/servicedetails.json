@@ -1,6 +1,12 @@
 [
     {
         "key": 101,
+        "name": "ফুড ফর লাইফ",
+        "description": "প্রতি শুক্রবার শিক্ষার্থী ও অতিথি আপ্যায়ন করা হয়",
+        "img": "imgs/courses/food.jpg"
+    },
+    {
+        "key": 101,
         "name": "কম্পিউটার প্রশিক্ষণ",
         "description": "Basci to Advanced Course",
         "img": "imgs/courses/computer.jpg"
@@ -21,11 +27,11 @@
         "key": 104,
         "name": "স্বাস্থ্য সেবা",
         "description": "Everyday Service",
-        "img": "imgs/courses/health.jpg"
+        "img": "imgs/courses/health.jpeg"
     },
     {
         "key": 105,
-        "name": "আত্নোন্নয়ন কোর্স",
+        "name": "আত্মোন্নয়ন কোর্স",
         "description": "Every Month Three Days Course",
         "img": "imgs/courses/quantum.jpg"
     }

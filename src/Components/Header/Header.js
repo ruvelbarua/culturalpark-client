@@ -9,44 +9,42 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant={"dark"} p={"2"} >
             <Container>
-                <div className='container text-center'>
-                    <Navbar.Brand href="/home">
-                        <img src={Logo1} alt="" className="d-inline-block align-text-center rounded rounded-circle" width="60" />
-                        <h2 className='text-danger'>CULTURAL PARK</h2>
+                <div className='d-flex text-center m-2'>
+                    <Navbar.Brand className='container' href="/home">
+                        <img src={Logo1} alt="" className="d-inline-block align-text-center rounded rounded-circle" width="80" />
+                        <h3 className='text-danger text-uppercase'>cultural park</h3>
                         <p className='text-white'>www.culturalparkbd.com</p>
                     </Navbar.Brand>
 
-                    <div className='container text-center'>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mx-auto">
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/home" variant="outline-primary btn-sm">Home</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/about" variant="outline-primary btn-sm">About Us</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/services" variant="outline-primary btn-sm"> Services</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/meditation" variant="outline-primary btn-sm"> Meditation</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/publication" variant="outline-primary btn-sm"> Publication</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/photos" variant="outline-primary btn-sm">Photo Gallery</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/membership" variant="outline-primary btn-sm">Membership</Button>
-                                </Navbar.Brand>
-                                <Navbar.Brand>
-                                    <Button as={HashLink} to="/contact" variant="outline-primary btn-sm">Contacts</Button>
-                                </Navbar.Brand>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </div>
+                    <Navbar.Toggle className='container' aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mx-auto">
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/home" variant="outline-warning btn-sm">Home</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/about" variant="outline-warning btn-sm">About Us</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/services" variant="outline-warning btn-sm"> Services</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/meditation" variant="outline-warning btn-sm"> Meditation</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/publication" variant="outline-warning btn-sm"> Publication</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/photos" variant="outline-warning btn-sm">Photo Gallery</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/membership" variant="outline-warning btn-sm">Membership</Button>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <Button as={HashLink} to="/contact" variant="outline-warning btn-sm">Contacts</Button>
+                            </Navbar.Brand>
+                        </Nav>
+                    </Navbar.Collapse>
                 </div>
                 {/* <div className="container-fluid text-center">
                     <div>
