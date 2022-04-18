@@ -7,13 +7,19 @@ import Logo1 from '../pic/logo1.png';
 const Header = () => {
     // const { user, logOut } = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant={"dark"} p={"2"} >
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant={"dark"} >
             <Container>
-                <div className='d-flex text-center m-2'>
-                    <Navbar.Brand className='container' href="/home">
-                        <img src={Logo1} alt="" className="d-inline-block align-text-center rounded rounded-circle" width="80" />
-                        <h3 className='text-danger text-uppercase'>cultural park</h3>
-                        <p className='text-white'>www.culturalparkbd.com</p>
+                <div className='d-flex text-center p-2'>
+                    <Navbar.Brand href="/home">
+                        <div className='d-flex'>
+                            <div>
+                                <img src={Logo1} alt="" className="d-inline-block align-text-center rounded rounded-circle" width="80" />
+                            </div>
+                            <div>
+                                <h3 className='text-danger text-uppercase'>cultural park</h3>
+                                <p className='text-white fst-italic'>www.culturalparkbd.com</p>
+                            </div>
+                        </div>
                     </Navbar.Brand>
 
                     <Navbar.Toggle className='container' aria-controls="responsive-navbar-nav" />
