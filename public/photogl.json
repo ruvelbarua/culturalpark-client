@@ -43,30 +43,66 @@
     },
     {
         "key": 8,
+        "name": "আলোর ভূবন",
+        "description": "Alor Vhuban",
+        "img": "imgs/alorvhubon.jpg"
+    },
+    {
+        "key": 9,
+        "name": "পাঠাগার",
+        "description": "Library",
+        "img": "imgs/pathagar.jpg"
+    },
+    {
+        "key": 10,
+        "name": "আজীবন সদস্য সন্মাননা",
+        "description": "Life Membership",
+        "img": "imgs/member.jpg"
+    },
+    {
+        "key": 11,
+        "name": "বার্ষিক শিক্ষা সফর",
+        "description": "Annual Picnic",
+        "img": "imgs/shikhashafar.jpg"
+    },
+    {
+        "key": 12,
+        "name": "বার্ষিক পুরুস্কার বিতরণ",
+        "description": "Annual Gift Ceromony",
+        "img": "imgs/gift.jpg"
+    },
+    {
+        "key": 13,
+        "name": "সাইকেল র‌্যালি",
+        "description": "Chycle Raly",
+        "img": "imgs/bicycle.jpg"
+    },
+    {
+        "key": 14,
         "name": "২১শে ফেব্রুয়ারী উদযাপন",
         "description": "Activities",
         "img": "imgs/cultural/21february.jpg"
     },
     {
-        "key": 9,
+        "key": 15,
         "name": "২৬শে মার্চ উদযাপন",
         "description": "Activities",
         "img": "imgs/cultural/26march.jpg"
     },
     {
-        "key": 10,
+        "key": 16,
         "name": "১লা বৈশাখ উদযাপন",
         "description": "Activities",
         "img": "imgs/cultural/baishabi.jpg"
     },
     {
-        "key": 11,
+        "key": 17,
         "name": "সংগীত শিক্ষা",
         "description": "Activities",
         "img": "imgs/cultural/bijoydibosh.jpg"
     },
     {
-        "key": 12,
+        "key": 18,
         "name": "শিশু দিবস উদযাপন",
         "description": "Activities",
         "img": "imgs/cultural/shishudibos.jpg"
