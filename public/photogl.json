@@ -2,139 +2,103 @@
     {
         "key": 1,
         "name": "",
-        "description": "Chief guest",
-        "img": "imgs/mppic.png"
+        "description": "MP",
+        "img": "imgs/gunijon/guest.png"
     },
     {
         "key": 2,
         "name": "",
-        "description": "Chief guest",
-        "img": "imgs/guest1.jpg"
+        "description": "Chairman",
+        "img": "imgs/gunijon/guest0.jpg"
     },
     {
         "key": 3,
         "name": "",
         "description": "Chief Guest ",
-        "img": "imgs/guest2.jpg"
+        "img": "imgs/gunijon/guest1.jpg"
     },
     {
         "key": 4,
-        "name": "প্রতিষ্ঠা-বার্ষিকী উদযাপন",
-        "description": "Protista Barshiki ",
-        "img": "imgs/protisabarshiki.JPG"
+        "name": "",
+        "description": "Chief Guest 2 ",
+        "img": "imgs/gunijon/guest2.jpg"
     },
     {
         "key": 5,
-        "name": "২১শে ফেব্রুয়ারী",
-        "description": "মাতৃভাষা দিবস উদযাপন",
-        "img": "imgs/21february.jpg"
+        "name": "",
+        "description": "Chief Guest 3",
+        "img": "imgs/gunijon/guest3.JPG"
     },
     {
         "key": 6,
-        "name": "২৬শে মার্চ উদযাপন",
-        "description": "Celebration on 26th March",
-        "img": "imgs/26march.jpg"
+        "name": "",
+        "description": "Chief Guest 4",
+        "img": "imgs/gunijon/guest4.JPG"
     },
     {
         "key": 7,
-        "name": "বিজয়দিবস উদযাপন",
-        "description": "Celebration on Bijoydibosh",
-        "img": "imgs/bijoydibosh.jpg"
+        "name": "",
+        "description": "Chief Guest 5",
+        "img": "imgs/gunijon/guest5.JPG"
     },
     {
         "key": 8,
-        "name": "চিত্রাঙ্কন প্রতিযোগিতা",
-        "description": "চিত্রাঙ্কন প্রতিযোগিতা",
-        "img": "imgs/art.jpg"
+        "name": "২১শে ফেব্রুয়ারী উদযাপন",
+        "description": "Activities",
+        "img": "imgs/cultural/21february.jpg"
     },
     {
         "key": 9,
-        "name": "১লা বৈশাখ উদযাপন",
-        "description": "Celebration on Baishabi",
-        "img": "imgs/baishabi.jpg"
+        "name": "২৬শে মার্চ উদযাপন",
+        "description": "Activities",
+        "img": "imgs/cultural/26march.jpg"
     },
     {
         "key": 10,
-        "name": "কবিতা প্রতিযোগিতা",
-        "description": "Poet Price Giving",
-        "img": "imgs/poet.JPG"
+        "name": "১লা বৈশাখ উদযাপন",
+        "description": "Activities",
+        "img": "imgs/cultural/baishabi.jpg"
     },
     {
         "key": 11,
-        "name": "মেডিটেশন",
-        "description": "Meditation Course",
-        "img": "imgs/meditation.jpg"
+        "name": "সংগীত শিক্ষা",
+        "description": "Activities",
+        "img": "imgs/cultural/bijoydibosh.jpg"
     },
     {
         "key": 12,
-        "name": "সাইকেল র‌্যালি",
-        "description": "Bicycle Rally Compition",
-        "img": "imgs/bicycle.jpg"
-    },
-    {
-        "key": 13,
-        "name": "আলোর ভুবন",
-        "description": "Alor Vhuban",
-        "img": "imgs/alorvhubon.jpg"
-    },
-    {
-        "key": 14,
-        "name": "সংবর্ধনা অনুষ্ঠান",
-        "description": "Gunijan Shangbardhana",
-        "img": "imgs/gunijon.JPG"
-    },
-    {
-        "key": 15,
-        "name": "শিক্ষা সফর",
-        "description": "Shikha Shafar",
-        "img": "imgs/shikhashafar.jpg"
-    },
-    {
-        "key": 16,
-        "name": "শীলানন্দ পাঠাগার",
-        "description": "Shilananda Pathagar",
-        "img": "imgs/pathagar.jpg"
-    },
-    {
-        "key": 17,
         "name": "শিশু দিবস উদযাপন",
-        "description": "শিশু দিবস",
-        "img": "imgs/shishudibos.jpg"
+        "description": "Activities",
+        "img": "imgs/cultural/shishudibos.jpg"
     },
     {
-        "key": 18,
-        "name": "গুণীজন সম্মাননা",
-        "description": "গুণীজন সম্মাননা",
-        "img": "imgs/shammanona.JPG"
+        "key": 101,
+        "name": "ফুড ফর লাইফ",
+        "description": "প্রতি শুক্রবার শিক্ষার্থী ও অতিথি আপ্যায়ন করা হয়",
+        "img": "imgs/courses/food.jpg"
     },
     {
-        "key": 19,
-        "name": "সিআরবি মুভমেন্ট",
-        "description": "সিআরবি মুভমেন্ট",
-        "img": "imgs/crb.jpg"
+        "key": 101,
+        "name": "কম্পিউটার প্রশিক্ষণ",
+        "description": "Basci to Advanced Course",
+        "img": "imgs/courses/computer.jpg"
     },
     {
-        "key": 20,
-        "name": "",
-        "description": "মাননীয় চেয়ারম্যান",
-        "img": "imgs/chairman.jpg"
+        "key": 102,
+        "name": "ড্রইং প্রশিক্ষণ",
+        "description": "Basic to Advanced Course",
+        "img": "imgs/courses/drowing.jpg"
     },
     {
-        "key": 21,
-        "name": "আজীবন সদস্য সম্মাননা",
-        "description": "আজীবন সদস্য সম্মাননা",
-        "img": "imgs/member.jpg"
+        "key": 103,
+        "name": "স্বাস্থ্য সেবা",
+        "description": "Everyday Service",
+        "img": "imgs/courses/health.jpeg"
     },
     {
-        "key": 22,
-        "name": "পুরস্কার বিতরণ অনুষ্ঠান",
-        "description": "চিত্রাংকন",
-        "img": "imgs/gift.jpg"
-    },
-    {
-        "key": 23,
-        "name": "ডাইনিং হল",
-        "description": "মেডিটেশন সেন্টার এর ডাইনিং হল",
-        "img": "imgs/dyning.jpg"
+        "key": 104,
+        "name": "আত্মোন্নয়ন কোর্স",
+        "description": "Every Month Three Days Course",
+        "img": "imgs/courses/quantum.jpg"
     }
 ]

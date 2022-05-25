@@ -15,6 +15,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Notfound from "./Components/Notfound/Notfound";
 import Photos from "./Components/Photos/Photos";
+import Cultur from "./Components/Cultur/Cultur";
 function App() {
   return (
     <div>
@@ -36,6 +37,7 @@ function App() {
           <Route path="photos" element={<Photos />} />
           <Route path="membership" element={<Membership />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="cultur" element={<Cultur />} />
           <Route path="*" element={<Notfound />} />
           {/* <Route path="users/*" element={<Users />} /> */}
         </Routes>
