@@ -34,5 +34,17 @@
         "name": "আত্মোন্নয়ন কোর্স",
         "description": "Every Month Three Days Course",
         "img": "imgs/courses/quantum.jpg"
+    },
+    {
+        "key": 106,
+        "name": "সেলাই প্রশিক্ষণ",
+        "description": "Every Month Three Days Course",
+        "img": "imgs/courses/quantum.jpg"
+    },
+    {
+        "key": 107,
+        "name": "শিলানন্দ পাঠাগার",
+        "description": "Only Mambers can use this library",
+        "img": "imgs/courses/pathagar.jpg"
     }
 ]

@@ -1,6 +1,9 @@
 import React from 'react';
-import { Card, Container } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import campuspic from '../pic/campus.JPG';
+import Services from '../Services/Services';
 
 const Navigation = () => {
     return (
@@ -14,7 +17,7 @@ const Navigation = () => {
                         <p className='text-primary'>মেডিটেশন সেন্টার, অতিথি ভবন ও সংস্কৃতি চর্চা কেন্দ্র</p> </Card.Text>
                 </Card.ImgOverlay>
             </Card>
-        </Container>
+        </Container >
     );
 };
 
